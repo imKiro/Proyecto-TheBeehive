@@ -1,0 +1,23 @@
+.postListComponent {
+    position: fixed;
+    height: calc(100vh - var(--nav-bar-height));
+    width: 100vw;
+    top: var(--nav-bar-height);
+    display: flex;
+}
+
+.postListComponent_dataContainer {
+    position: fixed;
+    width: 100%;
+    height: calc(100vh - var(--nav-bar-height));
+    background-color: var(--main-background-color);
+    overflow: scroll;
+}
+
+.postListComponent_fade {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.064);
+    opacity: 0;
+}

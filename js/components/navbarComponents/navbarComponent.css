@@ -1,0 +1,36 @@
+.navbarComponent {
+    position: fixed;
+    background-color: var(--primary-color);
+    width: 100%;
+    height: var(--nav-bar-height);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarComponent_backBtn {
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.navbarComponent_backBtnIcon {
+    width: 100%;
+    height: auto;
+}
+
+.navbarComponent_addBtnIcon {
+    width: 100%;
+    height: auto;
+}
+
+.navbarComponent_addBtn {
+    width: 50px;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+.navbarComponent_appName{
+    margin-top: 20px;
+    font-size: 40px;
+    color: #172b31;
+}

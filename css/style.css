@@ -1,0 +1,45 @@
+:root {
+    --primary-color: rgb(175, 205, 233);
+    --secondary-color: #418ce1;
+    --main-background-color: #8bc0d4;
+    --nav-bar-height: 80px;
+    --background-light-grey: black;
+    --background-grey: #5796b1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+h2 {
+    color: var(--secondary-color);
+}
+
+button {
+    min-width: 68px;
+    border-style: none;
+    padding: 10px 10px 10px 10px;
+    margin: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: var(--secondary-color);
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+p, div {
+    user-select: none;
+}
+
+.hide {
+    display: none !important;
+}

@@ -1,0 +1,66 @@
+.formComponent {
+    position: fixed;
+    height: calc(100vh - var(--nav-bar-height));
+    width: 100vw;
+    top: var(--nav-bar-height);
+    display: flex;
+}
+
+.formComponent_dataContainer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(175, 205, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formComponent_fade {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.064);
+    opacity: 0;
+    pointer-events: all;
+}
+
+.formComponent_header {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.formComponent_input {
+    background-color: rgb(175, 205, 233);
+    width: 60%;
+    height: 30px;
+    padding-left: 8px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid var(--secondary-color);
+}
+
+.formComponent_input:focus {
+    outline: none;
+}
+
+.formComponent_createBtn {
+    width: 30%;
+    height: 40px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 14px;
+    margin: 5px 0px 5px 5px;
+}
+
+.formComponent_error {
+    border-color: red;
+}
